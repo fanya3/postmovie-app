@@ -1,0 +1,56 @@
+:root {
+  background-color: black;
+}
+
+.FormMovie {
+    background-color:white;
+    width: 60%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FormMovie h1 {
+    text-align: center;
+  }
+  
+.form-data {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+
+ input, textarea {
+   width:60%
+ }
+
+ .form-comment {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    height:200px
+  }
+  
+  .FormMovie .form-data label {
+    display: inline-block;
+    width: 90px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+
+  .FormMovie .form-comment label {
+    display: inline-block;
+    width: 90px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  .button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding:1em;
+  }
