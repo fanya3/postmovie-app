@@ -37,7 +37,7 @@ class FormMovie extends React.Component {
             if (res.error) {
                 alert(res.error);
             } else {
-                alert(`Film ajouté avec l'ID ${res}!`);
+                alert(`Ton Film ${this.state.title} a été ajouté avec succès!`);
             }
         }).catch(e => {
         console.error(e);
